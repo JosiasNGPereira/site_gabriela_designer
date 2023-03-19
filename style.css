@@ -1,0 +1,83 @@
+
+body{
+    font-size: 100%;
+    list-style-type: none;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif ;
+    margin: 0;
+    padding:0;  
+    color: #555;
+    background-color: #a8a7a7;
+}
+.nav-pills .nav-link.active{
+    background-color: #212529;
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #212529;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.header{
+    position: fixed;
+    background: linear-gradient(90deg,rgb(46, 43, 43),black );
+    width: 100%;
+    height: 40px;
+}
+.banner{
+    display: flex;
+    align-items: center; /* alinhar dic centro (altura)*/
+    justify-content: space-evenly; /* alinhar dic centro (horizontal)*/
+    height:500px;
+}
+.container-img{
+    width: 300px;
+    height: 300px;
+    background: #e7e4e3;
+    margin: 0;
+    padding: 10px;
+    text-align: center ;
+    font-size: 25px;
+    color: #c2be8a;
+    border-radius: 50%;
+    overflow: hidden ;
+}
+.teste{
+    background:top center no-repeat url(./img/IMG_8502.jpg); 
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: cover; 
+}
+.profile{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden ;
+}
+.fotobi{
+    width: 100%;
+    height: auto;
+
+}
+.terceira{
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+
+}
+.fim{
+    background-color: #333;
+    height:  100px;
+    text-align: center;
+}
+.text-shadow{
+    text-shadow: 0.1em 0.1em 0.1em black;
+
+}
+.teste2{
+    background-color: #6c757d;
+    color: aliceblue;
+}
