@@ -6,7 +6,11 @@ body{
     margin: 0;
     padding:0;  
     color: #555;
-    background-color: #a8a7a7;
+    background-color: #e9e9e9;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 .nav-pills .nav-link.active{
     background-color: #212529;
@@ -29,8 +33,32 @@ body{
 .banner{
     display: flex;
     align-items: center; /* alinhar dic centro (altura)*/
-    justify-content: space-evenly; /* alinhar dic centro (horizontal)*/
-    height:500px;
+    justify-content: space-evenly; /* alinhar div centro (horizontal)*/
+    height:310px;
+    text-align: center;
+}
+/*
+.fundobanner{
+    display: flex;
+    background: url(./img/fundo_foto.png);
+    width:100000px;
+    justify-content:center ;
+    align-items: center;
+    background-size: cover;
+}
+*/
+.logo-container{   
+    width: auto;
+    height: auto;
+    margin-bottom: 15px;
+    
+}
+
+.logo{   
+    max-width:15%;
+    height: auto;
+    margin-bottom: 15px;
+    
 }
 .container-img{
     width: 300px;
@@ -60,19 +88,9 @@ body{
 .fotobi{
     width: 100%;
     height: auto;
+    overflow: hidden;
+}
 
-}
-.terceira{
-    max-width: 888px;
-    margin: auto;
-    padding: 30px;
-
-}
-.fim{
-    background-color: #333;
-    height:  100px;
-    text-align: center;
-}
 .text-shadow{
     text-shadow: 0.1em 0.1em 0.1em black;
 
@@ -80,4 +98,22 @@ body{
 .teste2{
     background-color: #6c757d;
     color: aliceblue;
+}
+.thumb{
+    width: 100%;
+    height: 300px;
+    overflow: hidden ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trabalho1{
+    height:auto;
+    max-width: 100%;
+    
+}
+.fim{
+    background-color: #333;
+    height:  100px;
+    text-align: center;
 }
