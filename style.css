@@ -95,14 +95,15 @@ a{
     overflow: hidden;
 }
 
-.comingSoon{
-    margin: 175;
-    padding: 100px;
+body .comingSoon{
+    margin: 0px;
+    padding: 50px;
     text-align: center ;
+    font-size: 92px;
     display: flex;
     align-items: center; /* alinhar dic centro (altura)*/
-    justify-content: space-evenly; /* alinhar div centro (horizontal)*/
-    height:310px;
+    justify-content: center; /* alinhar div centro (horizontal)*/
+    height:200px;
     text-align: center;
 
 }
