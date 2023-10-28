@@ -30,10 +30,16 @@ a{
     font-family: 'Raleway', sans-serif;
     text-transform: regular;
 }
-.logo-container-topo{   
-    width: 13%;
-    height: 13%;
+.name.lado{
     display: flex;
+    font-family: 'Raleway', sans-serif;
+    text-transform: bold;
+}
+.logo-container-topo{   
+    width: 18%;
+    height: 30%;
+    display: flex;
+    margin-top: 10px;
 }
 .logo-top{
     max-width:100%;
