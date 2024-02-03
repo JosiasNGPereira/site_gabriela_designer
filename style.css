@@ -135,6 +135,23 @@ body .comingSoon{
     text-align: center;
 
 }
+.btn-padrão{
+    margin: 0px;
+    padding: 20px;
+    text-align: center ;
+    font-size: 30px;
+    display: flex;
+    align-items: center; /* alinhar dic centro (altura)*/
+    justify-content: center; /* alinhar div centro (horizontal)*/
+    height:200px;
+    text-align: center;
+    
+}
+.btn-home{
+    background-color: #afb2b3;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 .text-shadow{
     text-shadow: 0.1em 0.1em 0.1em black;
