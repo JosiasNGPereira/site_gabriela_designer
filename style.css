@@ -3,7 +3,7 @@ body{
     font-size: 100%;
     list-style-type: none;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif ;
-    margin: 0px;
+    margin-top: 60px;
     padding:0px;  
     color: #5c5c5c;
     background-color: #fff;
@@ -27,6 +27,11 @@ a{
 }
 .name{
     display: flex;
+    font-family: 'Raleway', sans-serif;
+    text-transform: regular;
+}
+.name-creator{
+    display: center;
     font-family: 'Raleway', sans-serif;
     text-transform: regular;
 }
@@ -195,4 +200,50 @@ body .comingSoon{
 .logo-botton{
     max-width:7%;
     margin: 20px;
+}
+.img-contact{
+    height:100%;
+    max-width: 150%;
+}
+.body-contact{
+    justify-content: center;
+    display: flex;
+    height: 800px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background-color: #f6f6f6;
+}
+.name-lastName-form{
+    display: flex;
+    padding: 0px;
+}
+.form-contact{
+    padding: 70px; 
+}
+.btn-submit{
+    background-color: #c4c5c6;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+.text-Contact{
+    font-size: 60px;
+    text-shadow: 0.0em 0.1em 0.1em rgb(200, 200, 200);
+}
+.form-control{
+    margin-right: 60px;
+}
+.form-group{
+    margin-right: 14px;
+    margin-top: 10px;
+}
+.botton-contact{
+    align-items: center;
+    justify-content: center;
+    background-color: #b8b8b8;
+    height:  auto;
+    text-align: center;
+    padding-bottom: 10px;
+
 }
