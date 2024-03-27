@@ -83,21 +83,16 @@ a{
     display: center;
     align-items: center; /* alinhar dic centro (altura)*/
     justify-content: space-evenly; /* alinhar div centro (horizontal)*/
-    height:330px;
+    height:240px;
     text-align: center;
 }
 .logo-container{   
     width: auto;
-    height: auto;
-    margin-bottom: 15px;
-    
+    height: auto; 
 }
-
 .logo{   
     max-width:15%;
     height: auto;
-    margin-bottom: 15px;
-    
 }
 .container-img{
     width: 300px;
@@ -132,7 +127,8 @@ a{
 }
 
 body .comingSoon{
-    margin: 0px;
+    margin-top: 60px;
+    margin-bottom: 40px;
     padding: 50px;
     text-align: center ;
     font-size: 92px;
@@ -141,6 +137,7 @@ body .comingSoon{
     justify-content: center; /* alinhar div centro (horizontal)*/
     height:200px;
     text-align: center;
+    
 
 }
 .btn-padrão{
@@ -271,4 +268,11 @@ body .comingSoon{
 }
 #About{
     margin-left: 25%;
+}
+#ComingSoonPadding{
+    margin-top: 220px;
+}
+#letraComingSoon{
+    text-shadow: 0.0em 0.1em 0.1em rgb(200, 200, 200);
+    font-size: 60px;
 }
