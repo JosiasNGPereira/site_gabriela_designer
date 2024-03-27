@@ -6,7 +6,8 @@ body{
     margin-top: 60px;
     padding:0px;  
     color: #5c5c5c;
-    background-color: #fff;
+    /*background-color: #fff;*/
+    background-color: #f6f6f6;
     width: 100%;
 }
 a{
@@ -23,6 +24,7 @@ a{
     background-color: #fff;
     align-items:center;
     justify-content: space-around; /* alinhar div centro (horizontal)*/
+    box-shadow:10px 5px 10px rgb(219, 219, 219);
     
 }
 .name{
@@ -49,6 +51,7 @@ a{
 .logo-top{
     max-width:100%;
     margin: 0px;
+    margin-top: 9px;
 }
 .nav-pills .nav-link.active{
     background-color: #212529;
@@ -204,6 +207,7 @@ body .comingSoon{
 .img-contact{
     height:100%;
     max-width: 150%;
+    border-radius: 1%;
 }
 .body-contact{
     justify-content: center;
@@ -245,5 +249,26 @@ body .comingSoon{
     height:  auto;
     text-align: center;
     padding-bottom: 10px;
-
+}
+.body-about{
+    align-items: center;
+    display: flex;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background-color: #f6f6f6;
+}
+.img-about{
+    height:80%;
+    max-width: 100%;
+    border-radius: 1%;
+}
+.paragrafo-about{
+    width: 50%;
+    margin-left: 25%;
+}
+.box-Contact{
+    width: 40%;
+}
+#About{
+    margin-left: 25%;
 }
