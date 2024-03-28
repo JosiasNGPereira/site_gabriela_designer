@@ -265,14 +265,37 @@ body .comingSoon{
     padding-top: 80px;
     background-color: #f6f6f6;
 }
+.last-box-bout{
+    align-items: center;
+    display: flex;
+    padding-bottom: 80px;
+}
 .img-about{
-    height:80%;
-    max-width: 100%;
+    height:75%;
+    max-width:95%;
     border-radius: 1%;
+    box-shadow:10px 5px 10px 10px rgba(191, 191, 191, 0.673);
+}
+.img-about-large{
+    height:100%;
+    width: 100%;
+    border-radius: 1%;
+    box-shadow:10px 5px 10px 10px rgba(191, 191, 191, 0.673);
+}
+.paragrafo-about-large{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.box-Contact-first{
+    max-width: 45%;
+}
+.box-Contact-large{
+    margin: 60px;
 }
 .paragrafo-about{
     width: 50%;
     margin-left: 25%;
+    font-size: 20px;
 }
 .box-Contact{
     width: 40%;
