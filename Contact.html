@@ -19,6 +19,7 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
         </div>
         <ul class="nav nav-pills">
             <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="ComingSoon.html" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="Projects.html" class="nav-link">Projects</a></li>
             <li class="nav-item"><a href="ComingSoon.html" class="nav-link">Inspirations</a></li>
             <li class="nav-item"><a href="ComingSoon.html" class="nav-link">FAQs</a></li>
             <li class="nav-item"><a href="About.html" class="nav-link">About</a></li>
@@ -44,27 +45,33 @@
         <div class="form-contact">
             <h2 class="text-Contact">Contact us</h2>
             <h5>fill in the fields below</h5>
-            <form class="name-lastName-form">
-                <div class="form-group">
-                    <label for="formGroupExampleInput">Name</label>
-                    <input type="text" class="form-control nameForm" id="formName" placeholder="name">
+            <form class="name-lastName-form" action="https://api.staticforms.xyz/submit" method="post" id="form">
+                <input type="hidden" name="accessKey" value="05e2d3f0-993e-4db4-b237-33a54f452b57">
+                <input type="hidden" name="redirectTo" value="https://gabsinteriors.com/Contact.html">
+                <input type="text" name="honeypot" style="display: none;">
+                <div class="names-forms">
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text"  name="name" class="form-control nameForm" id="formName" placeholder="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Last Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="last name">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput2">Last Name</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="last name">
-                </div>
-            </form>
-            <form class="e-mail-message">
-                <div class="form-group">
-                    <label for="formGroupExampleInput">e-mail</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="email@exemplo.com">
-                </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput2">type your message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="btn-submit">
-                    <a class="btn-submit">submit</a>
+                <div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">e-mail</label>
+                        <input type="text" name="email" class="form-control" id="formGroupExampleInput"
+                            placeholder="email@exemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">type your message</label>
+                        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="btn-submit">
+                        <button class="btn-submit" id="Submit">submit</button>
+                    </div>
                 </div>
             </form>
         </div>
